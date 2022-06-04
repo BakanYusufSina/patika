@@ -9,7 +9,7 @@ const getPosts = () => {
     try {
         if (posts.length > 0)
             posts.map((el, i) => {
-                console.log(i+1, " author :", el.author, " post:", el.post)
+                console.log(i + 1, " author :", el.author, " post:", el.post)
             })
         else
             console.log('Post bulunamadı')
